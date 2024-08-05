@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="page">
+                 
+            <ul class="fir">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Projects Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="slideshow-container">
+            <!-- Slideshow images -->
+            <div class="mySlides fade">
+                <img src="slide1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="slide2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <img src="https://www.shutterstock.com/image-photo/about-us-company-profile-page-260nw-384812869.jpg" alt="">
+        <p>Company background information...</p>
+    </section>
+    <section id="services">
+        <h1>Services</h1>
+        <p>Description of services Provided by Us
+
+        </p>
+        <p>Transform Spaces, Transform Lives: The Story of Our Interior Design Journey
+
+            At Transform Spaces, we believe that a well-designed interior is more than just a beautiful space—it is a reflection of personality, style, and functionality that enhances the quality of life. Our journey began over a decade ago when our founder, an acclaimed architect with a passion for creating inspiring environments, saw the potential to transform ordinary spaces into extraordinary experiences.
+            
+            Our Mission
+            
+            Our mission is to provide bespoke interior design solutions that blend aesthetics with functionality, creating environments that inspire and elevate the lives of our clients. We strive to bring a unique perspective to each project, ensuring that every space we design tells a story and serves its purpose effectively.
+            
+            Our Vision
+            
+            We envision a world where every space, whether residential or commercial, reflects the individuality and taste of its occupants. By integrating innovative design with sustainable practices, we aim to be a leader in the interior design industry, setting new standards for creativity, quality, and customer satisfaction.
+            
+            Our Values
+            
+            Creativity: We embrace creativity as the cornerstone of our design philosophy. Our team constantly explores new ideas, materials, and techniques to craft unique solutions tailored to each client's needs.
+            Quality: We are committed to excellence in every aspect of our work. From the initial concept to the final execution, we ensure the highest standards of quality and craftsmanship.
+            Customer-Centric: Our clients are at the heart of everything we do. We listen, understand, and collaborate closely with them to turn their vision into reality.
+            Sustainability: We prioritize sustainable design practices that minimize environmental impact while maximizing efficiency and comfort.
+            Integrity: We conduct our business with honesty, transparency, and professionalism, building lasting relationships based on trust and mutual respect.
+            Our Journey
+            
+            Our journey started with a small team of passionate designers and craftsmen dedicated to creating functional and beautiful interiors. Over the years, we have grown into a full-service interior design firm with a diverse portfolio of residential, commercial, and hospitality projects. Our success is built on our ability to understand the unique needs of our clients and deliver personalized design solutions that exceed their expectations.
+            
+            Our Team
+            
+            At the heart of Transform Spaces is a dynamic team of designers, architects, and project managers who bring a wealth of experience and expertise to every project. Each team member is dedicated to pushing the boundaries of design, ensuring that we deliver innovative solutions that are both visually stunning and highly functional.
+            
+            Our Services
+            
+            We offer a comprehensive range of interior design services, including:
+            
+            Residential Design: From cozy apartments to luxurious villas, we create personalized living spaces that reflect your lifestyle and taste.
+            Commercial Design: Our commercial design services transform offices, retail spaces, and other business environments into productive and inviting spaces.
+            Hospitality Design: We design welcoming and stylish hospitality spaces, including hotels, restaurants, and resorts, that provide memorable experiences for guests.
+            Custom Furniture and Decor: Our team designs and sources custom furniture and decor pieces that perfectly complement your space and enhance its functionality and aesthetic appeal.
+            Project Management: We manage every aspect of the design process, from concept development to final installation, ensuring seamless execution and on-time delivery.
+            Our Commitment
+            
+            At Transform Spaces, we are committed to continuous improvement and innovation. We invest in the latest design tools and technologies, attend industry events, and collaborate with leading professionals to stay ahead of trends and deliver cutting-edge solutions to our clients.
+            
+            We invite you to embark on a journey with us to transform your space into a reflection of your unique style and personality. Let us help you create an environment that inspires and elevates your everyday life.
+            
+            </p>
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*tKQj0tbsgRl-J7jT63xsnA.jpeg" alt="">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*QVJHGYCrSQGS3NOmUrZfcw.jpeg" alt="">
+    </section>
+    <section id="gallery">
+        <h1>Projects Gallery</h1>
+        <div class="gallery">
+            <img src="https://img.freepik.com/free-photo/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110089.jpg" alt="Project 1" class="zoom">
+            <img src="https://media.istockphoto.com/id/1460755337/photo/white-color-theme-modern-style-office-with-exposed-concrete-floor-and-a-lot-of-plant-3d.jpg?s=612x612&w=0&k=20&c=PX1TFWVrLL34jgkmFREmxrzy3M4rqhBk4NMrHFOTmo8=" alt="Project 2" class="zoom">
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@interiordesign.com</p>
+        <p>Address: 123 Main St, Bangalore, India</p>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
